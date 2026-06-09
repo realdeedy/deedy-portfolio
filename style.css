@@ -6,6 +6,12 @@ html, body {
 	background-color:#252525
 }
 
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
 .navbar {
 	width: 100%;
 	top: 0px;
@@ -82,6 +88,8 @@ html, body {
 	padding-left: 20%;
 	padding-top: 65px;
 	padding-bottom: 15px;
+	
+	flex: 1;
 	
 	color:#B8B8B8;
 	font-family: Montserrat
