@@ -1,15 +1,13 @@
 <!doctype html>
 <html>
+
 <head>
-
-<meta charset="utf-8">
-<title>DEEDY Portfolio</title>
-	
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="stylesheet" href="/Scripts/Styles/montserrat.css">
-<link rel="stylesheet" href="/Scripts/Styles/image-compare.css">
-<link href="style.css" rel="stylesheet" type="text/css">
-
+	<meta charset="utf-8">
+	<title>DEEDY Portfolio</title>
+	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="stylesheet" href="/Scripts/Styles/montserrat.css">
+	<link rel="stylesheet" href="/Scripts/Styles/image-compare.css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 	
 <body>
@@ -17,11 +15,17 @@
 	<div id="navbar"></div>
 
 	<div class="main-content">
-		<div class="hp-showcase">
-			<div id="thumbnail-comparison">
-				<img src="/Images/Thumbnails/MWC-Before.png" alt="Before">
-				<img src="/Images/Thumbnails/MWC-After.png" alt="After">
+		<div class="hp-main">
+			
+			<div class="hp-showcase">
+				<div id="hp-showcase-tn">
+					<img src="/Images/Thumbnails/MWC-Before.png" alt="Before">
+					<img src="/Images/Thumbnails/MWC-After.png" alt="After">
+				</div>
 			</div>
+			
+			<div id="hp-reviews-container" class="hp-reviews-container"></div>
+			
 		</div>
 	</div>
 	
@@ -29,6 +33,7 @@
 	
 	<script src="/Scripts/navbar.js"></script>
 	<script src="/Scripts/footer.js"></script>
+	<script src="/Scripts/reviews.js"></script>
 	<script src="/Scripts/image-compare-viewer.js"></script>
 	<script src="/Scripts/slider-init.js"></script>
 	

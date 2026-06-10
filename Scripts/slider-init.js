@@ -1,8 +1,9 @@
 window.addEventListener("load", () => {
-    const element = document.getElementById("thumbnail-comparison");
+    const element = document.getElementById("hp-showcase-tn");
 
     new ImageCompare(element, {
-        showLabels: true,
+		imageSmoothingEnabled: false,
+        showLabels: false,
         startingPoint: 50
     }).mount();
 });
