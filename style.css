@@ -55,7 +55,7 @@ body {
 	
 	background-image: url("Images/logo1.png");
 	
-	left:  15%;
+	left:  10%;
 	top: 17px;
 	
 	background-repeat: no-repeat;
@@ -65,28 +65,9 @@ body {
 	align-items: center;
 }
 
-.footer {
-	width: 100%;
-	height: auto;
-
-	display: flex;
-	
-	padding-left: 15%;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	
-	background-color: #1E1E1E;
-	
-	font-family: Montserrat;
-	font-weight: bold;
-	color :#7A7A7A;
-	
-	box-sizing: border-box;
-}
-
 .main-content {
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-top: 75px;
 	padding-bottom: 15px;
 	
@@ -136,8 +117,9 @@ body {
 .hp-review-img {
 	position: absolute;
 	left: 18px;
+	top: 12px;
 	width: 45px;
-	padding-top: 12px;
+	aspect-ratio:1;
 	border-radius: 100%;
 }
 
@@ -170,4 +152,72 @@ body {
 
 .hyperlink1 {
 	color: cadetblue;
+}
+
+.footer {
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	position: relative;
+	
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	background-color: #1E1E1E;
+	
+	font-family: Montserrat;
+	font-weight: bold;
+	color :#7A7A7A;
+	
+	box-sizing: border-box;
+}
+
+.f-twitter {
+	width: 20px;
+	height: 20px;
+	aspect-ratio: 1;
+	
+	left: 90%;
+	
+	position: absolute;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+	
+	background-image: url("/Images/twitter-logo.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+	filter: brightness(0.5);
+	transition: filter 0.3s ease, color 0.3s ease;
+}
+.f-twitter:hover {
+	filter: brightness(1);
+}
+.f-discord {
+	width: 20px;
+	height: 20px;
+	aspect-ratio: 1;
+	
+	left: 87.5%;
+	
+	position: absolute;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+	
+	background-image: url("/Images/discord-logo.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+	filter: brightness(0.5);
+	transition: filter 0.3s ease, color 0.3s ease;
+}
+.f-discord:hover {
+	filter: brightness(1);
 }

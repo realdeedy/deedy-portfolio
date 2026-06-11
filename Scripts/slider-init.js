@@ -4,6 +4,6 @@ window.addEventListener("load", () => {
     new ImageCompare(element, {
 		imageSmoothingEnabled: false,
         showLabels: false,
-        startingPoint: 50
+        startingPoint: 50,
     }).mount();
 });
