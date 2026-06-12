@@ -3,7 +3,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color:#252525
+	background-color:#252525;
 }
 
 body {
@@ -105,7 +105,6 @@ body {
 	gap: 10px;
 	
 }
-
 .hp-review {
 	background-color: #1E1E1E;
 	padding-left: 15px;
@@ -140,7 +139,6 @@ body {
 	color:#5CA4C4;
 
 }
-
 .hp-review-text {
 	padding-top: 47px;
 	padding-left: 5px;
@@ -149,9 +147,91 @@ body {
 	color: #AAAAAA;
 }
 
+.carousel {
+	width: 100%;
+	height: auto;
+	padding-top: 25px;
+	overflow: hidden;
+	
+	mask-image: linear-gradient(
+        to right,
+        transparent,
+        white 30%,
+        white 70%,
+        transparent
+    );
+}
+.carousel-track {
+	display: flex;
 
-.hyperlink1 {
-	color: cadetblue;
+    width: max-content;
+    flex-wrap: nowrap;
+
+    animation: scroll  45s linear infinite;
+}
+.carousel-thumbnail {
+	aspect-ratio: 16/9;
+	height: 170px;
+	border-radius: 10px;
+	transition: transform 0.15s ease, transform 0.15s ease;
+	margin-right: 20px
+}
+.carousel-thumbnail:hover {
+	transform: scale(1.025)
+}
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.action-buttons {
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	gap: 20px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.redirect-hyperlink {	
+	color: #dddddd;
+	font-family: Montserrat;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	
+	background-color: #414141;
+	padding: 10px 25px;
+	border-radius: 20px;
+	
+	transition: color 0.3s ease, color 0.3s ease;
+}
+.redirect-hyperlink:hover {
+	color: white;
+}
+
+.status-open {
+	color: #5cc49c;
+	font-weight: bold;
+	font-size: 18px;
+}
+.status-closed {
+	color: #C45C5C;
+	font-weight: bold;
+	font-size: 18px;
+}
+.status-pending {
+	color: #c4b45c;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .work-highlight-container {
@@ -164,6 +244,7 @@ body {
 	width: 50%;
 	border-radius: 20px;
 }
+
 
 .footer {
 	width: 100%;

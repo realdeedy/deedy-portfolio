@@ -1,0 +1,17 @@
+[
+  	{
+		"id": "hp-showcase-tn",
+		"before": "/Images/Thumbnails/Before/wheel-challenges.png",
+		"after": "/Images/Thumbnails/wheel-challenges.png"
+	},
+	{
+		"id": "work-showcase1",
+		"before": "/Images/Thumbnails/Before/wheel-challenges.png",
+		"after": "/Images/Thumbnails/wheel-challenges.png"
+	},
+	{
+		"id": "work-showcase2",
+		"before": "/Images/Thumbnails/Before/girl-hide-and-seek.png",
+		"after": "/Images/Thumbnails/girl-hide-and-seek.jpg"
+	}
+]
